@@ -43,14 +43,16 @@ function setCurrentTimeColor(){
      hourBlock.each(function () {
             hour1 = $(this).text();
             console.log(hour1)
-                 if (hour1 === now) {
-                     $(this).next().addClass("present")
-                 }
+                 
                  if(moment(hour1,'hA').isAfter(moment())){
                     $(this).next().addClass("future")
                  }
                  if (moment(hour1, 'hA').isBefore(moment())) {
                     $(this).next().addClass("past")
+                 }
+                 if (hour1 === now) {
+                     $(this).next().removeClass("past")
+                     $(this).next().addClass("present")
                  }
                   // if (moment(hour1, 'hA') = moment('hA')) {
                   //      $(this).next().addClass("present")
