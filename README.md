@@ -2,6 +2,8 @@
 
 Hello - This repository will serve as homework #5 submission to the UPenn LPS Coding Bootcamp. This assignment is intended to engage the student in writing JavaScript by creating a calendar app that saves notes to specific time, and can be retreieved when browser is closed. 
 
+Additionally, the schedule will change color depending on the time of day you look at it.  I incorported the moment.js library to work with the current time to make the display more dynamic.  
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,7 +12,7 @@ Hello - This repository will serve as homework #5 submission to the UPenn LPS Co
 
 ## Installation
 
-This is a simple HTML/CSS/JS webstite designed to run in a browser.  The code for this website can be viewed directly in Github. Click on  <a href = "https://mikemarino.github.io/Homework_03-Javascript_Password_Generator/">this link</a> to view the completed website in the browser.  This link is uses Github pages.
+This is a simple HTML/CSS/JS webstite designed to run in a browser.  The code for this website can be viewed directly in Github. Click on  <a href = "https://mikemarino.github.io/Homework_05-Work_Day_Scheduler/">this link</a> to view the completed website in the browser.  This link is uses Github pages.
 
 ## Usage
 
